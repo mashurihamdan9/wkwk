@@ -651,6 +651,11 @@ async def ping(e):
 ##############        
 
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@str2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@str3.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@str4.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@str5.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "【﻿ＲＥＳＴＡＲＴＩＮＧ】!!!\nPʟᴇᴀꜱᴇ Wᴀɪᴛ Tɪʟʟ lᴛ Rᴇʙᴏᴏᴛꜱ..\n•[×] 〄 ╚» ⟦★𓆩ᏒⲞⲞᗪ𓆪★⟧«╝ SᑭᗩᗰᗷOT 〄."
@@ -684,6 +689,11 @@ async def restart(e):
 ##############        
         
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@str2.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@str3.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@str4.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@str5.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+
 async def help(e):
     if e.sender_id in SMEX_USERS:
        text = "〄 ╚» ⟦★𓆩ᏒⲞⲞᗪ𓆪★⟧«╝ SᑭᗩᗰᗷOT 〄\n\n🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n༒ᗩᒪIᐯE\n༒ᑭIᑎG\n༒ᖇESTᗩᖇT\n༒ᒍOIᑎ\n༒ᒪEᗩᐯE\n༒ᑭᒍOIᑎ\n༒Sᑭᗩᗰ\n༒ᗷIGSᑭᗩᗰ\n༒ᗪEᒪᗩYSᑭᗩᗰ\n༒ᖇᗩIᗪ\n༒ᖇEᑭᒪYᖇᗩIᗪ\n༒ᕼᗩᑎG\n༒ᖇEᑭO"
@@ -697,7 +707,7 @@ async def help(e):
 @str1.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
 async def repo(e):
     if e.sender_id in SMEX_USERS:
-       text = "〄 ╚» ⟦★𓆩ᏒⲞⲞᗪ𓆪★⟧«╝ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n┏━━━━━━━━━━━━━━━━━━━\n┣➣ Sᴜᴘᴘᴏʀᴛ : [ᒍOIᑎ] @TeamRoodChat\n┣➣ Cʀᴇᴀᴛᴇʀ : [ᖇOOᗪ OᗯᑎEᖇ] @Rood_Gamer_Owner)\n┣➣ Rᴇᴩᴏ : [TYᑭE] OC PRIVATE\n┗━━━━━━━━━━━━━━━━━━━"
+       text = "〄 ╚» ⟦★𓆩ᏒⲞⲞᗪ𓆪★⟧«╝ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n┏━━━━━━━━━━━━━━━━━━━\n┣➣ Sᴜᴘᴘᴏʀᴛ : [ᒍOIᑎ] @TeamRoodChat\n┣➣ Cʀᴇᴀᴛᴇʀ : [ᖇOOᗪ OᗯᑎEᖇ] @Rood_Gamer_Owner)\n┣➣ Rᴇᴩᴏ : [DEAD]\n┗━━━━━━━━━━━━━━━━━━━"
        await e.reply(text, parse_mode=None, link_preview=None )
     
 ##############
